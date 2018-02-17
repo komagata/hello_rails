@@ -1,0 +1,17 @@
+<h1>フルーツ作成</h1>
+
+<p>フルーツ：<%= request.query_string %></p>
+
+<form action="/fruits/new" method="get">
+  <p>
+    Name:
+    <br>
+    <input name="name" />
+  </p>
+  <p>
+    Price:
+    <br>
+    <input name="price" />
+  </p>
+  <input type="submit" />
+</form>
